@@ -14,7 +14,6 @@ def CATEGORIES():
         addDir('Cartoon Series','http://cartoons8.com/series/page/1',1,icon,fanart)
         addDir('Latest Updates','http://cartoons8.com/latestupdate/page/1',4,icon,fanart)
         addDir('Full Cartoon List','http://cartoons8.com/list/page/1',5,icon,fanart)
-        addLink('','url','mode',icon,fanart)
         addDir('Search','http://cartoons8.com',8,icon,fanart)
 
         xbmc.executebuiltin('Container.SetViewMode(50)')
